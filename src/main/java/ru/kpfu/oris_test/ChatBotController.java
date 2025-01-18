@@ -3,6 +3,9 @@ package ru.kpfu.oris_test;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import ru.kpfu.oris_test.client.HttpClientImpl;
+import ru.kpfu.oris_test.services.ExchangeRateService;
+import ru.kpfu.oris_test.services.WeatherService;
 
 public class ChatBotController {
     @FXML

@@ -1,4 +1,4 @@
-package ru.kpfu.oris_test;
+package ru.kpfu.oris_test.client;
 
 import java.io.IOException;
 import java.util.Map;

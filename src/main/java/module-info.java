@@ -7,4 +7,8 @@ module ru.kpfu.oris_test {
 
     opens ru.kpfu.oris_test to javafx.fxml;
     exports ru.kpfu.oris_test;
+    exports ru.kpfu.oris_test.services;
+    opens ru.kpfu.oris_test.services to javafx.fxml;
+    exports ru.kpfu.oris_test.client;
+    opens ru.kpfu.oris_test.client to javafx.fxml;
 }

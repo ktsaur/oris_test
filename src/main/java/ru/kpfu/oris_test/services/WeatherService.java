@@ -1,7 +1,8 @@
-package ru.kpfu.oris_test;
+package ru.kpfu.oris_test.services;
 
 
 import org.cloudinary.json.JSONObject;
+import ru.kpfu.oris_test.client.HttpClient;
 
 import java.util.HashMap;
 import java.util.Map;
